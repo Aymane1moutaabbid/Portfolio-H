@@ -7,6 +7,8 @@
     padding-top: 50px ;
     
   }
+ 
+
   .nav a{
     color: #f2f2f2;
     text-decoration: none;
@@ -83,9 +85,7 @@
       
   }
    .herr{
-    height: 545px;
     width: 561px;
-    
   }
   .aboutme{
       width: auto;
@@ -442,8 +442,217 @@ textarea{
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
 }
+.mnu{
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+}
+.mnu .fa{
+    color:white;
+    font-size: 30px;
+}
+.mobil-menu{
+    width: 100%;
+    background-color:#378fc2;
+}
+.mobil-links{
+    display:flex;
+    flex-direction: column;
+}
+.mobil-links a{
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 3px 0px 0px 0px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+span .fa-heart{
+    color: red;
+}
+@media(min-width: 426px){
+    .but-menu{
+        display: none;
+    }
+    .mobil-menu{
+        display: none;
+    }
+}
+
+@media(max-width: 1024px){
+    
+    .herr{
+        width: 200px;
+    }
+}
+@media(max-width: 425px){
+    .menuu{
+        display: none;
+    }
+    .mobil-menu{
+        padding: 10px 0px;
+    }
+    .ptHero{
+        padding: 50px 0px;
+    }
+    .hello .helloword{
+        font-size: 30px;
+    }
+    .hello .pres{
+        font-size: 15px;
+    }
+    .logo #logo{
+        width: 40px;
+    }
+    .nlogo p{
+        font-size: 30px;
+    }
+    .hello{
+      margin-top: 0px;
+    }
+    br{
+        display: none;
+    }
+    .get-in-touch{
+        padding: 6px 15px;
+        font-size: 12px;
+    }
+    .herr{
+       display: none;
+    }
+    .con{
+        flex-direction: column;
+    }
+
+    /* //aboutme// */
+    .tit1{
+        padding: 20px 0px; 
+        font-size: 30px;
+    }
+    .con-img-pp{
+        display: flex;
+        flex-direction: column;
+    }
+    .con-pp{
+        width: 100%;
+    }
+    .pp{
+        font-size: 16px;
+        line-height: 1.7rem;
+        padding: 25px 0px 10px 0px;
+    }
+    .imgg{
+        width: 70%;
+    }
+   /* //SKILLS// */
+
+   .Rskills{
+       display: flex;
+       flex-direction: column;
+   }
+   .fr-b{
+       font-size: 25px;
+   }
+   .text-skills{
+       font-size: 16px;
+   }
+   .mimo span{
+    padding: 5px 22px;
+    font-size: 11px;
+   }
+   .front{
+       margin-bottom: 30px;
+   }
+   /* //HOW I WORK// */
+
+   .mb-carts{
+       margin-bottom: 20px;
+   }
+
+   /* // testimonials// */
+
+   .item2,.item3, .item{
+       display: flex;
+       flex-direction: column;
+   }
+   .testimonials .item .img-item{
+       width: 180px;    
+   }
+   .testimonials .item2 .img-item2{
+       width: 180px;     
+   }
+   .testimonials .item3 .img-item3{
+       width: 180px;  
+    }
+    .text-item .t1{
+        font-size: 18px;
+    }
+    .text-item .t2{
+        font-size: 16px;
+    }
+    .text-item .t3{
+        font-size: 18px;
+    }
+    .testimonials{
+        padding-bottom: 50px;
+    }
+    /* //contact// */
+    .contactMe{
+        margin: 30px;
+        width: 90%;
+    }
+    .titC{
+        font-size: 25px;
+    }
+    .textC{
+        font-size: 18px;
+    }
+    .contImg{
+        margin-top: 40px;
+    }
+    #infor{
+        height: auto;
+        width: 20px;
+    }
+    .liii {
+        align-items: baseline;
+    }
+    .contImg .liii p{
+        font-size: 15px;
+        padding: 0px 0px 0px 15px;
+       
+    }
+    .contactForm{
+        margin: 30px;
+        width: 90%;
+        
+    }
+    input[type=text]:not(#sujet) {
+        width: 48.8%;
+        padding: 13px;
+    }
+    #sujet{
+        padding: 15px;
+    }
+    textarea{
+        padding: 15px;
+        height: 130px;
+    }
+    .send{
+        padding: 12px 75px;
+    }
+    .sft{
+        padding: 20px 0px;
+        flex-direction: column;
+    }
+    .footer p{
+        font-size: 11px;
+    }
 
 
+}
 
 
 
@@ -453,3 +662,4 @@ textarea{
  
 
   
+

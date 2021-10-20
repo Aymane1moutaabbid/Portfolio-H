@@ -33,18 +33,25 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <title>Document</title>
   </head>
   <body>
-    <div class="header">
+    <script src="/por.js"></script>
+    <div class="header ">
       <div class="hero">
-        <div class="nav container">
+        <div class="container">
+        <div class="nav">
           <div class="logo">
             <img id="logo" src="pic/Logo.png" />
             <div class="nlogo">
               <p>Hatim</p>
               <p class="plogo">Lagzar</p>
             </div>
+          </div>
+
+          <div class="but-menu">
+            <button class="mnu" onclick="show()"><i class="fa fa-bars"></i></button>
           </div>
           <div class="menuu">
             <a href="#">Home</a>
@@ -53,18 +60,36 @@
             <a href="#Projects">Projects</a>
             <a href="#contact">Contact</a>
           </div>
+          
         </div>
+      </div>
+      <div id="mobil-menu" class="mobil-menu" style="display: none;">
+        <div class="container">
+          <div class="mobil-links">
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#Projects">Projects</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+        
+      </div>
 
-        <div class="ptHero container">
+
+        <div class="container">
+        <div class="ptHero">
+          
           <div id="home" class="hello">
-            <p class="helloword">Hello Word</p>
-            <p class="pres">I'm Hatim and I'm a Web Design & Developer and</p>
-            <p class="pres">I'm ready to bring your idea to reality.</p>
+            <p class="helloword">Hello World</p>
+            <p class="pres">I'm Hatim and I'm a Web Design & Developer and<br>
+              I'm ready to bring your idea to reality.</p>
             <button class="get-in-touch">Get in Touch</button>
           </div>
-          <div>
-            <img class="herr" src="pic/Logo.png" />
-          </div>
+   <div class="her">
+    <img class="herr" src="pic/Logo.png" />
+  </div> 
+        </div>
         </div>
       </div>
     </div>
@@ -96,7 +121,7 @@
   <div id="services" class="skills">
         <p class="tit1">SKILLS</p>
     <div class="container">
-      <div class="row">
+      <div class="row Rskills">
         <div class="col">
       <div class="front">
         <h2 class="fr-b">Front-End</h2>
@@ -135,7 +160,7 @@
     <div class="how-i-work ">
       <div class="container">
         <div class="row">
-          <div class="col">
+          <div class="col mb-carts">
 
             <div class="n1">
               <img id="lpl" src="pic/f1.png" alt="" />
@@ -152,7 +177,7 @@
             </div> 
          </div>
           </div>
-          <div class="col" >
+          <div class="col mb-carts" >
             <div class="n1" id="mill">
               <img id="lpl" src="pic/F2.png" alt="" />
               <p class="fi">Develop it</p>
@@ -166,7 +191,7 @@
             
           </div>
           </div>
-          <div class="col">
+          <div class="col mb-carts">
             <div class="n1" >
               <img id="lpl" src="pic/f3.png" alt="" />
               <p class="fi">Deliver IT</p>
@@ -412,7 +437,7 @@
           <p>All rights reserved Copyright © 2019.</p>
         </div>
         <div class="ts2">
-          <p>Designed and Developed with -LOVE- By Hatim Lagzar</p>
+          <p>Designed and Developed with <span><i class="fa fa-heart"></i></span> Hatim Lagzar</p>
         </div>
       </div>
       
